@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "YiQiuYes",
+			"oem": "Xiaomi",
+			"device": "Xiaomi Pad 5 Pro",
+			"filename": "crDroidAndroid-15.0-20241101-elish-v11.0-BETA.zip",
+			"download": "https://github.com/YiQiuYes/android_device_xiaomi_elish/releases/download/20241101/crDroidAndroid-15.0-20241101-elish-v11.0-BETA.zip",
+			"timestamp": 1730432210,
+			"md5": "3ef908ee007eeb1833f2b8fe6731a406",
+			"sha256": "1b4f7d57a4ac33febc5f1745575e1c0996ffced5f56c6c555c8b206516ac20d8",
+			"size": 1648327777,
+			"version": "11.0",
+			"buildtype": "UNOFFICIAL",
+			"forum": "",
+			"gapps": "https://gitlab.com/MindTheGapps/vendor_gapps",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/YiQiuYes/android_device_xiaomi_elish",
+			"common-dt": "https://github.com/YiQiuYes/android_device_xiaomi_sm8250-common",
+			"kernel": "https://github.com/web1n/android_device_xiaomi_elish-kernel-prebuilt"
+		}
+	]
+}
