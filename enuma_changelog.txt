@@ -1,0 +1,257 @@
+====================
+     11-01-2024
+====================
+
+   * android
+a774bd5 manifest: Untrack fm-commonsys
+
+   * bionic
+bec50f2 Ensure prop has zero padding
+
+   * build/make
+6813131 Merge 'lineage-22.0' into 15.0
+
+   * device/lineage/sepolicy
+a29a21f Allow apps to access usap pool
+
+   * device/xiaomi/sm8250-common
+9919cb7 sm8250-common: Switch usb and thermal aidl hal
+
+   * frameworks/base
+8bb09e0ab Adapt statusbar lyric for Android V
+
+   * packages/apps/Aperture
+4979595 Automatic translation import
+
+   * packages/apps/Backgrounds
+2920955 Automatic translation import
+
+   * packages/apps/DeskClock
+423acc6 Automatic translation import
+
+   * packages/apps/Dialer
+60e35ca New Crowdin updates (#127)
+
+   * packages/apps/Eleven
+cc6425f Automatic translation import
+
+   * packages/apps/Etar
+3e49484 Automatic translation import
+
+   * packages/apps/Glimpse
+6812579 Automatic translation import
+
+   * packages/apps/Jelly
+d365e31 Automatic translation import
+
+   * packages/apps/Launcher3
+b47ccae New Crowdin updates (#444)
+
+   * packages/apps/LineageParts
+40fc78b Disable unused components
+
+   * packages/apps/Recorder
+47146ee Automatic translation import
+
+   * packages/apps/Settings
+bc9f3c9 Fixup UI for Settings categories (#155)
+
+   * packages/apps/Updater
+15d7419 Update strings.xml
+
+   * packages/modules/Connectivity
+d2ac8a2 netd: Require 4.19+ for programs using connect/recvmsg/sendmsg hooks
+
+   * packages/providers/DownloadProvider
+3b899e2 Automatic translation import
+
+   * packages/resources/devicesettings
+1073036 Automatic translation import
+
+   * packages/services/Mms
+9ef3eac Automatic translation import
+
+   * vendor/addons
+e4cca47 addons: Disable UDFPS icons for now
+
+   * vendor/lineage
+a18d67c overlay: Do not set rounded_corner_content_padding
+
+   * vendor/qcom/opensource/commonsys-intf/bluetooth
+6a51aea Add .gitupstream file
+
+   * vendor/qcom/opensource/commonsys/fm
+0b9ae4a FM: Slight design adjustments
+
+   * vendor/xiaomi-elish
+e9920e9 Update blobs
+
+   * vendor/xiaomi-enuma
+9c15d59 Removed conditional compilation for tablet devices
+f677aac Update Blobs
+
+====================
+     10-31-2024
+====================
+
+   * bootable/recovery
+e088164 minui: Import graphics_drm fix from QSSI 13
+
+   * device/xiaomi/enuma
+5188053 enuma: Update device configuration and manifest for phone functionality
+
+   * packages/apps/GameSpace
+a06138f GameSpace: Fix the limit of only four widget apps
+
+   * packages/apps/crDroidSettings
+e22fd9d crdroid: Add status bar lyric [2/2]
+
+   * packages/modules/Bluetooth
+5331042 fixup! Bluetooth timeout feature
+
+   * system/sepolicy
+4200d27 Merge pull request #9 from raystef66/15.0
+
+====================
+     10-30-2024
+====================
+
+   * device/lineage/atv
+80bd511 fixup! atv: idc: Make remotes all not wake by default
+
+   * frameworks/opt/telephony
+f12e14d Restore support with RadioConfig@1.0 dsds clients.
+
+====================
+     10-29-2024
+====================
+
+   * packages/apps/FaceUnlock
+5456882 FaceUnlock: Move to system_ext
+
+====================
+     10-28-2024
+====================
+
+   * art
+ed50ddc Fix app info code type.
+
+   * device/qcom/sepolicy_vndr/sm8450
+c6154ee sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+
+   * frameworks/av
+5efd32d C2SoftMpeg2Dec: Fix KEEP_THREADS_ACTIVE issue
+
+   * frameworks/libs/systemui
+db917df monet: Allow chroma & luminance to affect secondary colors [2/3]
+
+   * hardware/lineage/compat
+f5550fe libcrypto_shim: Allow on system_ext
+
+   * hardware/qcom-caf/sm8150/media
+2befa21 fixup! conf_files: Remove software OMX blobs
+
+   * hardware/qcom/display
+ae3b069 msm8998{6,8}: libgralloc1: Drop unecessary libcxx include
+
+   * prebuilts/extract-tools
+fac6a80 linux-x86: Import patchelf 0.18
+
+   * system/core
+39667af Avoid unnecessary allocation in VectorImpl
+
+   * tools/extract-utils
+dc38ba1 extract: Allow patchelf 18.0 to be used
+
+   * vendor/qcom/opensource/usb
+9ec9610 usb: Fix USB HAL crash due to PortRole tag mismatch
+
+====================
+     10-27-2024
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+0a2cd87 sepolicy: Allow USB HAL to rw usb_data_enabled nodes
+
+   * hardware/lineage/interfaces
+66e51c4 power-libperfmgr: Fix shared_ptr conversion for HintManager
+
+   * hardware/qcom-caf/sm8150/display
+c9997fe Merge tag 'LA.UM.9.1.r1-16400-SMxxx0.QSSI14.0' of https://git.codelinaro.org/clo/la/platform/hardware/qcom/display into 14.0-caf-sm8150
+
+   * lineage-sdk
+49d986b lineage-sdk: Allow to customize bottom corner swipe up action [3/4]
+
+====================
+     10-26-2024
+====================
+
+   * build/soong
+4813707 soong: Set ro.crdroid.device
+
+   * hardware/interfaces
+959cee0 interfaces: bluetooth: Restore LC3 codec support for A2DP
+
+   * hardware/qcom/data/ipacfg-mgr
+13ef0a0 ipacm: Get rid of `using namespace std;`
+
+   * hardware/qcom/sdm845/data/ipacfg-mgr
+95f03df ipacm: Get rid of `using namespace std;`
+
+   * hardware/xiaomi
+7bc51fe Drop powershare HIDL
+
+   * packages/apps/Messaging
+db70f1a Messaging: Fix navigation bar theming
+
+   * packages/apps/OmniStyle
+c3cc55a OmniStyle: Move to system_ext
+
+   * packages/apps/SetupWizard
+f1ecdc0 SetupWizard: Bring it on our side
+
+   * packages/apps/ThemePicker
+bd12900 Import CustomColorStub from Husky QPR1
+
+   * packages/modules/Wifi
+c209d1a bugfix: tethering didn't work unless Wi-Fi was enabled at least once
+
+   * packages/services/Telecomm
+1c75e60 Add back increasing ring feature (1/2).
+
+====================
+     10-25-2024
+====================
+
+   * device/xiaomi/elish
+0970794 elish: audio: Fix small typo in mixer_paths_overlay_static.xml
+
+   * external/chromium-webview/prebuilt/arm
+3a32a73 Update Chromium Webview arm prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/arm64
+a264c13 Update Chromium Webview arm64 prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/x86
+66835db Update Chromium Webview x86 prebuilt to 130.0.6723.73
+
+   * external/chromium-webview/prebuilt/x86_64
+b8bf297 Update Chromium Webview x86_64 prebuilt to 130.0.6723.73
+
+====================
+     10-24-2024
+====================
+
+   * external/chromium-webview/patches
+9108113 Update Chromium Webview to 130.0.6723.73
+
+   * lineage/scripts
+023e86f build-webview: Update default webview to 130.0.6723.73
+
+====================
+     10-23-2024
+====================
+
+   * device/xiaomi/enuma-prebuilt
+c2f9896 first commit
+

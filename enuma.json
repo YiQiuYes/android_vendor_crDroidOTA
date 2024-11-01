@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "YiQiuYes",
+			"oem": "Xiaomi",
+			"device": "Xiaomi Pad 5 Pro 5G",
+			"filename": "crDroidAndroid-15.0-20241101-enuma-v11.0-BETA.zip",
+			"download": "https://github.com/YiQiuYes/android_device_xiaomi_enuma/releases/download/20241101/crDroidAndroid-15.0-20241101-enuma-v11.0-BETA.zip",
+			"timestamp": 1730443485,
+			"md5": "4df0f916afb3cfdcc864fa435318efd8",
+			"sha256": "c17f0e6b8de2bd3ec35ac463109fc7b670de1b6ef657a573d6ad87362261cce8",
+			"size": 1664278517,
+			"version": "11.0",
+			"buildtype": "UNOFFICIAL",
+			"forum": "",
+			"gapps": "https://gitlab.com/MindTheGapps/vendor_gapps",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "",
+			"dt": "https://github.com/YiQiuYes/android_device_xiaomi_enuma",
+			"common-dt": "https://github.com/YiQiuYes/android_device_xiaomi_sm8250-common",
+			"kernel": "https://github.com/YiQiuYes/android_device_xiaomi_enuma-kernel-prebuilt"
+		}
+	]
+}
